@@ -1,0 +1,1431 @@
+@import url('https://fonts.cdnfonts.com/css/cheeseburga');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/baron-kuffner');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+
+html{
+  font-size: 62.5%;
+}
+
+.root{
+  --bgColor:radial-gradient(#FFF280, #FFC700);
+}
+body{
+  background: url('https://s3-alpha-sig.figma.com/img/6648/fff9/2dd3d3ca2ea2c2dede710d01d49c2ad1?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=frX1perr8lzVpKE3hjUCS-dcXyObiNPO8tcZCbClKqLDINm1Pz~igFj831~PLFMVfGBgysaBS5yJ2rPQg5OoNH73rx9ie0i34EqyvwTfW4kkqHbiDfrOOW70DyHWO3lN3GQfR5BaFw-UF0GiO6OKlh87DNPPUGElcqovXPzeaWEyvH0bPUtMYal-tzHVsMsGXETo9-EAO96PdJdcpFVHNE67BkjEbLMtreRyyxco4y2I3WrEq9oH16I7JAXU-778wQnCv1B~suxb~wu37rK0eF1jAhnLVLT0R71aN-LkCgmhTGxMx4NWStlUPD8pQvRXKcpdk8CQVd1JJ4rKIW5v5g__');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.welDiv{
+  position: fixed;
+  top: 5rem;
+  left: 10.64rem;
+  font-family: 'CHEESEBURGA';
+  font-size: 10rem;
+  font-weight: 400;
+  line-height: 9rem;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(180deg, #FFF280 0%, #7EFF5E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  --text-fill-color: transparent;
+  z-index: 1;
+  filter: drop-shadow(0.8rem 0.5rem);
+  -webkit-filter: drop-shadow(0.8rem 0.5rem);
+  -webkit-text-stroke: .5rem #000000;
+}
+
+.paraDiv{
+  
+  background: #2E333E;
+  position: fixed;
+  padding: 1rem 5rem;
+  left: 0rem;
+  /* right: 1rem; */
+  top: 40rem;
+  font-family: 'CHEESEBURGA';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.paraDiv span{
+      /* color: gold; */
+      background: linear-gradient(#FFF280 100%, #FFA800 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      --text-fill-color: transparent;
+}
+
+.mainDiv{
+  width: -webkit-fill-available;
+  background: #FFFFFF;
+  position: absolute;
+  top: 69rem;
+  left: 7rem;
+  right: 7rem;
+  border-radius: 1rem;
+  z-index: 1;
+  transition: all 1s;
+  overflow: hidden;
+}
+
+.mainDiv hr{
+  height: 1.8rem;
+  width: 15rem;
+  background: #FFF6A1;
+  border-radius: 10rem;
+  margin-top: 2rem;
+}
+
+.history{
+  height: 91rem;
+  width: -webkit-fill-available;
+  background: radial-gradient(#FFF280, #FFC700);
+  position: sticky;
+  margin: -14rem -10rem 0 -10rem;
+  border-radius: 1rem;
+  z-index: -1;
+  rotate: 8deg;
+}
+
+.fHDiv{
+  width: 45rem;
+  position: absolute;
+  margin: 11rem 0 0 80rem;
+  font-size: 6rem;
+  text-align: right;
+  font-weight: 900;
+  color: #F76902D1;
+  rotate: -8deg;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fHDiv span{
+  font-size: 14rem;
+    font-weight: 400;
+    font-family: 'cheeseburga';
+    color: #FFF;
+    line-height: 17rem;
+    margin-left: -1rem;
+}
+
+.history p{
+  width: 50rem;
+  position: absolute;
+  margin: 46rem 0 0 79rem;
+  rotate: -8deg;
+  text-align: right;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+ .img{
+  height: 72rem;
+  width: 72rem;
+  position: absolute;
+  margin: -60rem -1rem;
+}
+
+.sImg{
+  height: 15rem;
+  overflow: hidden;
+}
+
+.sImg img{
+  height: 72rem;
+  width: 72rem;
+  mix-blend-mode: luminosity;
+  rotate: 180deg;
+  transform: rotate3d(0, 4, 1, 182deg);
+  margin: -11rem 0;
+  filter: opacity(0.3);
+}
+
+.galleryMenu{
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: 800;
+  margin: -8rem 46rem;
+}
+
+.gallery{
+  width: 107rem;
+    position: absolute;
+    margin: 12rem 6rem;
+    overflow: hidden;
+}
+
+.fSlide{
+  position: relative;
+}
+
+.div_1{
+  height: 22rem;
+  width: 32rem;
+  border-radius: 2rem;
+  background: gold;
+}
+
+.div_2{
+  height: 22rem;
+  width: 32rem;
+  border-radius: 2rem;
+  background: gold;
+  margin-left: 37rem;
+  position: absolute;
+  top: 0;
+}
+
+.div_3{
+  height: 22rem;
+  width: 32rem;
+  border-radius: 2rem;
+  background: gold;
+  margin-left: 74rem;
+  position: absolute;
+  top: 0;
+}
+
+.sSlide{
+  position: absolute;
+  top: 0rem;
+}
+
+.div_4{
+  height: 22rem;
+  width: 32rem;
+  border-radius: 2rem;
+  background: gold;
+  margin-left: 111rem;
+  position: absolute;
+  top: 0;
+}
+
+.div_5{
+  height: 22rem;
+  width: 32rem;
+  border-radius: 2rem;
+  background: gold;
+  margin-left: 148rem;
+  position: absolute;
+  top: 0;
+}
+
+.div_6{
+  height: 22rem;
+  width: 32rem;
+  border-radius: 2rem;
+  background: gold;
+  margin-left: 185rem;
+  position: absolute;
+  top: 0;
+}
+
+.arrowBtn{
+  margin: 1rem 115rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.arrowBtn .btn{
+  border: none;
+    position: absolute;
+    margin-top: 15.8rem;
+}
+
+.arrowBtn .btn1{
+  border: none;
+    position: absolute;
+    margin-top: 16rem;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.arrowBtn .btn .btnRight1{
+  height: 10rem;
+  width: 7rem;
+  background: #353535;
+  color: #FFFFFF;
+  border-radius: 2rem;
+}
+
+.arrowBtn .btn1 .btnRight2{
+  height: 10rem;
+  width: 7rem;
+  background: #353535;
+  color: #FFFFFF;
+  border-radius: 2rem;
+}
+
+.frt{
+  visibility: visible;
+}
+.sec{
+  visibility: hidden;
+  position: absolute;
+  left: 0rem;
+}
+
+.project{
+  position: absolute;
+  margin: 90rem 0 0 5rem;
+  text-align: center;
+}
+
+.projectH{
+  font-size: 15rem;
+  font-family: 'cheeseburga';
+  font-weight: 400;
+  color: #FFA800;
+  position: absolute;
+  z-index: 1;
+  margin: -25rem 8rem;
+}
+
+.project .bgColor{
+  position: relative;
+  margin: 21rem -15rem;
+  width: auto;
+  height: 145rem;
+  background: radial-gradient(#FFF280, #FFC700);
+}
+
+.project .bgColor2{
+  border-bottom: 226rem solid transparent;
+    border-right: 25rem solid #ffffff;
+    border-left: 25rem solid #ffffff;
+    box-shadow: 10rem 0rem 8rem #fff;
+    rotate: 270deg;
+    margin: -206rem 12rem;
+    width: 145rem;
+}
+
+.project .imgDiv{
+  position: absolute;
+  margin: 5rem 0;
+}
+
+.project .imgDiv .img1{
+  width: 120rem;
+  height: 74rem;
+}
+
+.project .shadowImgDiv{
+  position: absolute;
+  margin: 68rem 1rem;
+  height: 21rem;
+    overflow: hidden;
+    filter: blur(3px);
+}
+
+.project .shadowImgDiv .img2{
+  width: 120rem;
+  height: 74rem;
+  transform: rotate3d(-60, 1, 0, 180deg);
+  filter: opacity(0.2) blur(2px) drop-shadow(8px 100px 37px black);
+}
+
+.project .info{
+  position: absolute;
+  margin: 86rem 0rem;
+  font-size: 3.5rem;
+  font-family: 'Kumbh Sans';
+  font-weight: 700;
+  width: 116rem;
+  text-align: center;
+}
+
+.roadMap .hRoad{
+  position: absolute;
+  margin: 203rem 8rem;
+  font-size: 14rem;
+  font-family: 'cheeseburga';
+  color: #ffffff;
+}
+
+.roadMap .imgDiv{
+  position: absolute;
+    margin: 213rem 55rem;
+}
+
+.roadMap .imgDiv .img1{
+  width: 70rem;
+}
+
+.roadMap .info{
+  position: absolute;
+    margin: 245rem 11rem;
+    font-size: 3rem;
+    width: 45rem;
+    font-weight: 700;
+    font-family: 'Kumbh Sans';
+}
+
+.roadMap .info span{
+  position: absolute;
+  margin-top: 2rem;
+  color: #FFA800;
+}
+
+.roadMap .imgDiv .imgShadowDiv{
+  margin: -6rem 0rem;
+  height: 15rem;
+  filter: grayscale(1) opacity(0.5);
+  overflow: hidden;
+}
+
+.roadMap .imgDiv .imgShadowDiv .img2{
+  width: 70rem;
+  transform: rotate3d(30, 0, 1, 180deg);
+  filter: opacity(0.2);
+}
+
+.roadMap .service{
+  position: absolute;
+    margin: 307rem 4rem;
+    height: 60rem;
+    width: 122rem;
+    gap: 2rem;
+    display: flex;
+    overflow: hidden;
+}
+
+.roadMap .service .div1{
+  height: 48rem;
+  background: linear-gradient(#DBC70C, #FFF28000);
+  box-shadow: inset 0rem -14rem 7rem #DBC70C;
+  width: 30rem;
+  border-top-left-radius: 5rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.roadMap .service .div1 div{
+  position: relative;
+  font-size: 3rem;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  color: #ffffff;
+  width: 27rem;
+  text-align: center;
+  left: 2rem;
+  top: 3rem;
+}
+
+.roadMap .service .div1 div span{
+  font-size: 2.5rem;
+}
+
+.roadMap .service .div1 .imgDiv1{
+  margin: 1rem -1rem;
+}
+
+.roadMap .service .div1 .imgDiv1 .img1{
+  width: 25rem;
+}
+
+.roadMap .service .div2{
+  height: 48rem;
+  background: linear-gradient(#00D4D4, #41FFFF00);
+  box-shadow: inset 0rem -14rem 7rem #00D4D4;
+  width: 30rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.roadMap .service .div2 div{
+  position: relative;
+  font-size: 3rem;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  color: #ffffff;
+  width: 27rem;
+  text-align: center;
+  left: 2rem;
+  top: 3rem;
+}
+
+.roadMap .service .div2 div span{
+  font-size: 2.5rem;
+}
+
+.roadMap .service .div2 .imgDiv2{
+  margin: 2rem -1rem;
+  overflow: hidden;
+}
+
+
+.roadMap .service .div2 .imgDiv2 .img2{
+  width: 25rem;
+}
+
+.roadMap .service .div3{
+  height: 48rem;
+  background: linear-gradient(#D427FF, #D427FF00);
+  box-shadow: inset 0rem -14rem 7rem #D427FF;
+  width: 30rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.roadMap .service .div3 div{
+  position: relative;
+  font-size: 3rem;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  color: #ffffff;
+  width: 27rem;
+  text-align: center;
+  left: 2rem;
+  top: 3rem;
+}
+
+.roadMap .service .div3 div span{
+  font-size: 2.5rem;
+}
+
+.roadMap .service .div3 .imgDiv3{
+  margin: 0rem -7rem;
+  overflow: hidden;
+    width: 33rem;
+}
+
+.roadMap .service .div3 .imgDiv3 .img3{
+  width: 40rem;
+}
+
+.roadMap .service .div4{
+  height: 48rem;
+  background: linear-gradient(#8F3A3C, #8F3A3C00);
+  box-shadow: inset 0rem -14rem 7rem #8F3A3C;
+  width: 30rem;
+  border-top-right-radius: 5rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.roadMap .service .div4 div{
+  position: relative;
+  font-size: 3rem;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  color: #ffffff;
+  width: 27rem;
+  text-align: center;
+  left: 2rem;
+  top: 3rem;
+}
+
+.roadMap .service .div4 div span{
+  font-size: 2.5rem;
+}
+
+.roadMap .service .div4 .imgDiv4{
+  margin: 0rem -7rem;
+  overflow: hidden;
+    width: 33rem;
+}
+
+.roadMap .service .div4 .imgDiv4 .img4{
+  width: 40rem;
+}
+
+.tokenomics .bgColorDiv{
+  position: absolute;
+  margin: 336rem 0rem;
+}
+
+.tokenomics .bgColorDiv .bgColor{
+  position: relative;
+    margin: 21rem -15rem;
+    width: auto;
+    height: 145rem;
+    background: radial-gradient(#FFF280, #FFC700);
+}
+
+.tokenomics .bgColorDiv .bgColor2{
+  border-bottom: 226rem solid transparent;
+    border-right: 25rem solid #ffffff;
+    border-left: 25rem solid #ffffff;
+    box-shadow: 10rem 0rem 8rem #fff;
+    rotate: 270deg;
+    margin: -206rem 12rem;
+    width: 145rem;
+}
+
+.hTokenomics{
+  position: absolute;
+    margin: 380rem 3rem;
+    font-size: 17rem;
+    font-weight: 400;
+    font-family: 'cheeseburga';
+    color: #FFFFFF;
+}
+
+.tokenomics .liquidity{
+  position: absolute;
+  margin: 418rem 4rem;
+  width: 50rem;
+  box-sizing: border-box;
+  font-size: 3rem;
+  background: #353535;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  text-align: left;
+  padding: 2rem 12rem 2rem 6rem;
+  border-radius: 3rem;
+  box-shadow: 1rem 1rem 2rem #A87D29;
+  text-transform: uppercase;
+}
+
+.tokenomics .liquidity span{
+  font-size: 5rem;
+  color: #FFF280;
+}
+
+.tokenomics .contract{
+  position: absolute;
+  margin: 436rem 4rem;
+  width: 50rem;
+  box-sizing: border-box;
+  font-size: 3rem;
+  background: #353535;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  text-align: left;
+  padding: 2rem 12rem 2rem 6rem;
+  border-radius: 3rem;
+  box-shadow: 1rem 1rem 2rem #A87D29;
+  text-transform: uppercase;
+}
+
+.tokenomics .contract span{
+  font-size: 5rem;
+  color: #FFF280;
+}
+
+.tokenomics .taxes{
+  position: absolute;
+  margin: 454rem 4rem;
+  width: 50rem;
+  box-sizing: border-box;
+  font-size: 3rem;
+  background: #353535;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  text-align: left;
+  padding: 2rem 12rem 2rem 6rem;
+  border-radius: 3rem;
+  box-shadow: 1rem 1rem 2rem #A87D29;
+  text-transform: uppercase;
+}
+
+.tokenomics .taxes span{
+  font-size: 5rem;
+  color: #FFF280;
+}
+
+.tokenomics .imgDiv{
+  position: absolute;
+    margin: 403rem 58rem;
+}
+
+.tokenomics .imgDiv .img1{
+  width: 75rem;
+}
+
+.tokenomics .imgShadowDiv{
+  margin: -17rem 0rem;
+    height: 21rem;
+    overflow: hidden;
+}
+
+.tokenomics .imgShadowDiv .img1{
+  transform: rotate3d(30, 0, 1, 180deg);
+  filter: opacity(0.2);
+}
+
+.merchandise{
+  position: absolute;
+  margin: 500rem 0rem;
+  z-index: 1;
+}
+
+.merchandise .hMerchandise{
+  font-size: 16rem;
+  font-family: 'cheeseburga';
+  font-weight: 400;
+  color: #FFA800;
+  margin: 2rem 18rem;
+}
+
+.merchandise .slide{
+  margin: 10rem 5rem;
+  background: black;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.merchandise  .bg1{
+  background: url('https://s3-alpha-sig.figma.com/img/7509/2c42/0295b873bfefd869e0278c7a23fda692?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X8TbJ4BDNgaBg4hy-OuXPW0RLjixq427h-RpfK7JLXe6zYyjy1uanOl5chg61Tpj2IVj6Wkt~gE6Bw-To4i0WARRUnvbnELe8aRKRHeZpBYkJcRSvEbGB2VWNW-Pg~jfhfwEzc~gQLLV58B-6p6A-A1EQtl6VZKSxIl9AWpWtx9h89Jjlvh65ZIBucwKGkbDjK7cc0-4DRrGw3n4CTT5wZFrItG9Bes1nhSXV~6CwXzvrZCqgG-wsdCTawyXrZmzIjYeSmo3txEKJvNclPn~LEvxUQm-FrQNXrgJGqjB8b5f1ldYouZ5KTb6GIEHW7oVEXfm5KKmReak8N6B0413NA__');
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.merchandise .carousel-inner .bg2{
+  background: url('https://s3-alpha-sig.figma.com/img/fc76/6d8d/8b344d796e5a7f49ab6712d0d329037f?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=STO5E3ivRqf3-N4h0n2uX2vFbwdsUxMtqH7lFi0zVE0pF3HLAH4RhEePPE0r0--vyscE~MTo1MfTrVw9seS41KoiyKjOp-BRmdyTnnEXP-KPXDHhDcKdBy~EkuqS~2SGUcvCdXKUnzCPpvH~5Qy57ibsk34v1t8G8r4qrG1t0KpjB92xMPp7vDFWIY627CadL4g~f5qMsl60w0SSN8h9WdXmRaeDO4k0vWLrjjpHR5UQuR7d2z4nw~pltfqKEVItSKkZRhbG2ZHawi5kdlI2HOVIV4A3vvmM3PYzrbDecHuMP5oz7kSUGmlenzkNqY~pP~bbHu~vTZwpnBhnG1ASZQ__');
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.merchandise .carousel-inner .bg3{
+  background: url('https://s3-alpha-sig.figma.com/img/eafa/fb0c/20d274e8c38d04ea7420452643e06eb7?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=id2enPMUMa9XY5avmFhQaBQdhUixLMiiwMumW~KVgyqNpRJWqTnN8N-mbDtaRup0l5m3XJ~CO4ic8rkQ3ApGUmNxsnPeu-APPx5O6IDmVLExiw6TrXQTm5V2bW6AyUbPmTgJSLGt4nGf20X4FTKWDXHMwZNON5ldEsdMYiKpQ58qmrPYWwb4uZgbaxVdRCpb52UEqsebX7e0tRtVSmE6BBByb736Vs0a7poYB20DqmmT0GRnfE8pwkPmEfDluVjlfqwSiprT8UXInSZqyPxK73afUbGlVv~oSkxgIcKlqFFa7KAYsxo0BT04IMAhTxVOW1rDYyYu8XvIKiBuLIZ0dQ__');
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.merchandise .carousel-inner .bg4{
+  background: url('https://s3-alpha-sig.figma.com/img/edce/29c2/b86c0256af15ca0c6c5763472967414e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n97rDZz99z~z0TsM9ew~HKxrFBQ-ElJAqZBXDwYAM6mt5YW~xigH-oCusCRoPZluIH8K3qYxWylfwWqpzQ3n~Wuj3OLE6QRqcc4OgqHTFUWsO1I8VOznfUCk5v6IT~lISOuRr8wbUltYQLtfzXbd1kW175XTfLXythQTh5G~dN36Vh7q0Q0VJRj3YQPMYNkTwNDYgzlmsvzNCXOlZJgYvBPlLI7yaPGv2r1JrZgbyKsUf3fm2ERhnG-S0iAwogINEauE3k5qNI6K3ZDM6vcP6~kxd99Jf6AA7qXPNY3MKiQEZsAfDBpKe2PxNCAzMh1E2qysd1pGrDZu4FRWMSmByA__');
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+.merchandise .carousel-control-prev{
+  margin: 0 -2rem;
+}
+
+.merchandise .carousel-control-prev .btnLeft{
+  height: 8rem;
+  width: 8rem;
+}
+
+.merchandise .carousel-control-next{
+  margin: 0 -2rem;
+}
+
+.merchandise .carousel-control-next .btnRight{
+  height: 8rem;
+  width: 8rem;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.merchandise .comingSoon{
+  position: absolute;
+    margin: -80rem 87rem;
+    width: 30rem;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Montserrat';
+    color: #2A2027;
+}
+
+.games{
+  position: absolute;
+  margin: 230rem 0;
+}
+
+.games .bgColorDiv{
+  position: absolute;
+  margin: 336rem 0rem;
+}
+
+.games .bgColorDiv .bgColor{
+  position: relative;
+    margin: 21rem -15rem;
+    width: auto;
+    height: 145rem;
+    background: radial-gradient(#FFF280, #FFC700);
+}
+
+.games .bgColorDiv .bgColor2{
+  border-bottom: 227rem solid transparent;
+    border-right: 25rem solid #ffffff;
+    border-left: 25rem solid #ffffff;
+    rotate: 270deg;
+    margin: -207rem 12rem;
+    width: 145rem;
+}
+
+.games .hGames{
+  position: absolute;
+    margin: 410rem 45rem;
+    font-size: 14rem;
+    font-weight: 400;
+    font-family: 'cheeseburga';
+    color: #FFFFFF;
+}
+
+.games .info{
+  position: absolute;
+  margin: 430rem 28rem;
+  width: 75rem;
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: 'Montserrat';
+  color: #353535;
+}
+
+.games .slide{
+  margin: 450rem 4rem;
+    border-radius: 6rem;
+    overflow: hidden;
+    border: 1rem solid #FFFFFF;
+}
+
+.games .slide .carousel-control-next{
+  margin: 38rem 0;
+}
+
+.games .slide .carousel-control-next .btnRight{
+  height: 30rem;
+  width: 10rem;
+}
+
+.games .discover1{
+  height: 9rem;
+  width: 32rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  background: #843AFC;
+  font-family: 'Montserrat';
+  border-radius: 10rem;
+  color: #FFFFFF;
+  text-align: center;
+  padding-left: 4rem;
+border: none;
+filter: drop-shadow(8px 7px 11px  #000000);
+}
+
+.games .btnDiv{
+  position: absolute;
+  margin: -19rem 44rem;
+}
+
+.games .discover1 .btnRight{
+  height: 8rem;
+  width: 8rem;
+}
+
+.games .discover2{
+  height: 9rem;
+    width: 32rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    background: #45D689;
+    font-family: 'Montserrat';
+    border-radius: 10rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 4rem;
+  border: none;
+  filter: drop-shadow(8px 7px 11px  #000000);
+}
+
+.games .btnDiv2{
+  position: absolute;
+  margin: -19rem 44rem;
+}
+
+.games .discover2 .btnRight{
+  height: 8rem;
+  width: 8rem;
+}
+
+.games .gamePreview{
+  position: absolute;
+  margin: -440rem 5rem;
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: 'Montserrat';
+  color: #353535;
+}
+
+.games .gamePreview span{
+  color: #FFA800;
+}
+
+.games .gamePreview .previews{
+  margin: 5rem 0;
+    display: flex;
+    gap: 2rem;
+    height: 40rem;
+    overflow: hidden;
+}
+
+.games .gamePreview .previews img{
+  border-radius: 2rem;
+  height: 36rem;
+}
+.games .gamePreview .previews .btn{
+  border: none;
+}
+
+.games .gamePreview .previews .btn .btnRight{
+  height: 10rem;
+  width: 7rem;
+  background: #353535;
+  color: #FFFFFF;
+  border-radius: 2rem;
+}
+
+.socialMedia{
+  position: absolute;
+  margin: 835rem 0;
+}
+
+.socialMedia .hSocialMedia{
+  font-size: 15rem;
+    font-family: 'cheeseburga';
+    font-weight: 400;
+    width: 100rem;
+    color: #FFA800;
+    margin: 0 5rem;
+}
+
+.socialMedia .imgDiv{
+  position: absolute;
+  margin: 0rem 55rem;
+}
+
+.socialMedia .imgDiv img{
+  width: 70rem;
+}
+
+.socialMedia .imgShadowDiv {
+  position: relative;
+  margin: 62rem 60rem;
+  height: 68rem;
+  transform: rotate3d(20, -2, 0, 180deg);
+  filter: grayscale(1) opacity(0.1);
+  z-index: -1;
+  overflow: hidden;
+}
+
+.socialMedia .imgShadowDiv img{
+  width: 70rem;
+}
+
+.socialMedia .socialChat{
+  position: absolute;
+  margin: -170rem 6rem;
+  height: 35rem;
+  width: 45rem;
+  background: linear-gradient(0deg, #80B3FF, #417DF1);
+  border: 1rem solid #0553C8A8;
+  border-radius: 5rem;
+}
+
+.socialMedia .socialChat .twitter{
+  position: absolute;
+  margin: 8rem 5rem;
+  font-size: 3rem;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+.socialMedia .socialChat .twitter img{
+  width: 7rem;
+  background: #000;
+  padding: 1.5rem;
+  border-radius: 50%;
+}
+.socialMedia .socialChat .twitter span{
+  margin-left: 3rem;
+}
+.socialMedia .socialChat .mask{
+  position: absolute;
+  margin: 20rem 1rem;
+  font-size: 3rem;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+.socialMedia .socialChat .mask svg{
+  width: 14rem;
+    height: 7rem;
+    color: #000;
+}
+
+.gaurdian{
+  background: url('https://s3-alpha-sig.figma.com/img/17ad/b147/27a80e9f26b1592e8f58588da90159bc?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UFuKumYsUeZsSWFb~Jen5kYxXglroCLa57Ac1lebJwyA8V9wguPeoZsGx-UgQp-XTJk5YBjlt~j-9mOO~adK1EwjN4pIf9Oh4j-2KgpsNkpaUAiPtbMXH~LyY67FL9GSnJDCP31C4gPGrvDjUWC27cgmLncTevMQZrFKobjRzAWGhPsZHCT-yTUH~FhIby8dOONu9u3-dXngof7GrAmD0lfZRnzE6DA2UivoL9wBafQNf8oU7aL~TiYQo72y9jmyfjqhi8ANq0lX~zVh-awjSVfWdp9e9mr4IAXEbGNrvTelrzeIR9YVLqt4uKKOCVEOWCrRT34iIops7e7MpyPgEg__');
+    height: 76.2rem;
+    background-position: center;
+    background-size: 163rem 82rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: 0rem;
+    box-shadow: inset 63rem -9rem 247rem #18171cb5, inset 0rem -35rem 42rem #18171cd1;
+
+}
+
+.gaurdian .gaurdianDiv{
+  position: absolute;
+  margin: 24rem 6rem;
+  height: 50rem;
+  overflow: scroll;
+  overflow-x: visible;
+}
+
+.gaurdian .hGaurdian{
+  position: fixed;
+  margin: 8rem 6rem;
+  font-size: 4rem;
+  color: #A4A8FF;
+  font-family: 'Bebas Neue';
+  letter-spacing: .7rem;
+  font-weight: 400;
+}
+
+.gaurdian .hGaurdian span{
+  font-size: 7rem;
+  font-family: 'Baron Kuffner';
+  line-height: 5rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  letter-spacing: normal;
+}
+
+.gaurdian .gaurdianDiv .info{
+  width: 43rem;
+  font-size: 1.7rem;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
+
+.gaurdian .gaurdianDiv .btnDiv{
+  margin: 3rem 0;
+}
+
+.gaurdian .gaurdianDiv .btnDiv .playBtn{
+  height: 5rem;
+  width: 17rem;
+  font-size: 1.8rem;
+  color: #201E26;
+  font-weight: 700;
+  background: #A4A8FF;
+  font-family: 'Helvetica';
+  border-radius: 6rem;
+  padding: 0 1rem;
+}
+
+.gaurdian .gaurdianDiv .btnDiv .playBtn .playSvg{
+  width: 3rem;
+    height: 3rem;
+    margin: 0rem 2rem 0 -4rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.gaurdian .gaurdianDiv .gamePreview{
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+.gaurdian .gaurdianDiv .gamePreview span{
+  color: #A4A8FF;
+}
+
+.gaurdian .gaurdianDiv .gamePreview .previews{
+  margin-top: 1rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.gaurdian .gaurdianDiv .gamePreview .previews img{
+  width: 23rem;
+  border-radius: 2rem;
+  border: .2rem solid #fff;
+}
+
+.features {
+  margin-top: 4rem;
+  width: 130rem;
+}
+
+.features .featureDetail{
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  width: 100rem;
+  line-height: 2.3rem;
+}
+
+.features .featureDetail .hFeature{
+  color: #A4A8FF;
+  font-size: 2.5rem;
+}
+
+.features .featureDetail div span{
+  color: #A4A8FF;
+}
+
+
+.features .featureDetail .btnDiv{
+  margin: 3rem 0;
+}
+
+.features .featureDetail .btnDiv .playBtn{
+  height: 5rem;
+  width: 17rem;
+  font-size: 1.8rem;
+  color: #201E26;
+  font-weight: 700;
+  background: #FFFFFF;
+  font-family: 'Helvetica';
+  border-radius: 6rem;
+  padding: 0 1rem;
+}
+
+.features .featureDetail .btnDiv .playBtn .playSvg{
+  width: 3rem;
+    height: 3rem;
+    margin: 0rem 2rem 0 -4rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.features .featureDetail .btnDiv .exitBtn{
+  height: 5rem;
+    width: 17rem;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    background: transparent;
+    font-family: 'Helvetica';
+    border-radius: 6rem;
+    padding: 0 1rem;
+    border: .2rem solid #FFFFFF;
+    margin-left: 5rem;
+}
+
+.gaurdian .scrollbarDiv{
+  position: absolute;
+  margin: 20rem 135rem;
+}
+
+.gaurdian .scrollbarDiv .scrollbar{
+  height: 24rem;
+  width: 2rem;
+  background: #D9D9D957;
+  border-radius: 3rem;
+}
+
+.gaurdian .scrollbarDiv .scrollbar .thumb{
+  height: 12rem;
+  width: 2rem;
+  background: #A4A8FF;
+  border-radius: 3rem;
+  position: relative;
+}
+
+.gaurdian .scrollbarDiv .scrollup{
+  margin: 1rem -.5rem;
+}
+
+.gaurdian .scrollbarDiv .scrollup .up{
+  background: #D9D9D957;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+.gaurdian .scrollbarDiv .scrolldown{
+  margin: 1rem -.5rem;
+}
+
+.gaurdian .scrollbarDiv .scrolldown .down{
+  background: #D9D9D957;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar{
+  background: transparent;
+}
+
+
+/* Heritage*/
+
+.heritage{
+  background: url('https://s3-alpha-sig.figma.com/img/9ea3/c2a5/258e9acc950cdef2a23e058d05c99fd5?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=h2ZtSZMtq87oU-xDZEgfe~ngWhCOn6K6OyHAjIJudqoYE5CadS0MrgBFiNUjZnFDgGRYZD4frEXa~A88lcBxbXniAnwuIRxwExdQSI1TUQqEOFCNGFG9Z~PEgAfUT52-Ax2qY6-LBj42LtVGMC-SkK2O4Cvi6vcfPn5LtuUIYxKipg~rEYw2OnUmQhODIg5rSd8e8WkK3LeJymeG4aKaaqxA7xNVNlTVAOoS~nnxlnFfXtPnL0CEUzupfA-fcicsNsnxYOaHtsKU2DIHEQWZjokx~4Yina8cgwgBTXuo9tFmj3SfuVMrc0ijXfmlH-FUAxhQGz7JDOxteYP5gSxTCg__');
+    height: 76.2rem;
+    background-position: center;
+    background-size: 163rem 82rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: 0rem;
+    box-shadow: inset 63rem -9rem 247rem #18171cb5, inset 0rem -35rem 42rem #18171cd1;
+
+}
+
+.heritage .heritageDiv{
+  position: absolute;
+  margin: 24rem 6rem;
+  height: 50rem;
+  overflow: scroll;
+  overflow-x: visible;
+}
+
+.heritage .hHeritage{
+  position: fixed;
+  margin: 8rem 6rem;
+  font-size: 4rem;
+  color: #90FFAE;
+  font-family: 'Bebas Neue';
+  letter-spacing: .7rem;
+  font-weight: 400;
+}
+
+.heritage .hHeritage span{
+  font-size: 7rem;
+  font-family: 'Baron Kuffner';
+  line-height: 5rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  letter-spacing: normal;
+}
+
+.heritage .heritageDiv .info{
+  width: 43rem;
+  font-size: 1.7rem;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
+
+.heritage .heritageDiv .btnDiv{
+  margin: 3rem 0;
+}
+
+.heritage .heritageDiv .btnDiv .playBtn{
+  height: 5rem;
+  width: 17rem;
+  font-size: 1.8rem;
+  color: #201E26;
+  font-weight: 700;
+  background: #90FFAE;
+  font-family: 'Helvetica';
+  border-radius: 6rem;
+  padding: 0 1rem;
+}
+
+.heritage .heritageDiv .btnDiv .playBtn .playSvg{
+  width: 3rem;
+    height: 3rem;
+    margin: 0rem 2rem 0 -4rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.heritage .heritageDiv .gamePreview{
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+.heritage .heritageDiv .gamePreview span{
+  color: #90FFAE;
+}
+
+.heritage .heritageDiv .gamePreview .previews{
+  margin-top: 1rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.heritage .heritageDiv .gamePreview .previews img{
+  width: 23rem;
+  border-radius: 2rem;
+  border: .2rem solid #fff;
+}
+.heritage .heritageDiv .gamePreview .previews .img1{
+  width: 37rem;
+  border-radius: 2rem;
+  border: .2rem solid #fff;
+}
+
+.features {
+  margin-top: 4rem;
+  width: 130rem;
+}
+
+.features .featureDetail{
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  width: 100rem;
+  line-height: 2.3rem;
+}
+
+.features .featureDetail .hFeature{
+  color: #90FFAE;
+  font-size: 2.5rem;
+}
+
+.features .featureDetail div span{
+  color: #90FFAE;
+}
+
+
+.features .featureDetail .btnDiv{
+  margin: 3rem 0;
+}
+
+.features .featureDetail .btnDiv .playBtn{
+  height: 5rem;
+  width: 17rem;
+  font-size: 1.8rem;
+  color: #201E26;
+  font-weight: 700;
+  background: #FFFFFF;
+  font-family: 'Helvetica';
+  border-radius: 6rem;
+  padding: 0 1rem;
+}
+
+.features .featureDetail .btnDiv .playBtn .playSvg{
+  width: 3rem;
+    height: 3rem;
+    margin: 0rem 2rem 0 -4rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.features .featureDetail .btnDiv .exitBtn{
+  height: 5rem;
+    width: 17rem;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    background: transparent;
+    font-family: 'Helvetica';
+    border-radius: 6rem;
+    padding: 0 1rem;
+    border: .2rem solid #FFFFFF;
+    margin-left: 5rem;
+}
+
+.heritage .scrollbarDiv{
+  position: absolute;
+  margin: 20rem 135rem;
+}
+
+.heritage .scrollbarDiv .scrollbar{
+  height: 24rem;
+  width: 2rem;
+  background: #D9D9D957;
+  border-radius: 3rem;
+}
+
+.heritage .scrollbarDiv .scrollbar .thumb{
+  height: 12rem;
+  width: 2rem;
+  background: #90FFAE;
+  border-radius: 3rem;
+  position: relative;
+}
+
+.heritage .scrollbarDiv .scrollup{
+  margin: 1rem -.5rem;
+}
+
+.heritage .scrollbarDiv .scrollup .up{
+  background: #D9D9D957;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+.heritage .scrollbarDiv .scrolldown{
+  margin: 1rem -.5rem;
+}
+
+.heritage .scrollbarDiv .scrolldown .down{
+  background: #D9D9D957;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar{
+  background: transparent;
+}
+
+@media screen and (max-width : 600px) {
+  html{
+    font-size: 25%;
+  }
+}
+@media screen and (max-width : 768px) {
+  html{
+    font-size: 45%;
+  }
+}
