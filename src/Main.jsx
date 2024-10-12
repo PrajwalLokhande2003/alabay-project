@@ -1,4 +1,4 @@
-import react, { useState } from 'react'
+import React, { useState } from 'react'
 import Project from './Project'
 import RoadMap from './RoadMap'
 import Tokenomics from './Tokenomics'
