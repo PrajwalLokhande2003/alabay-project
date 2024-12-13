@@ -7,15 +7,15 @@ const SocialMedia = () =>{
             <div className="hSocialMedia">social media
             links</div>
             <div className="imgDiv">
-                <img alt="..." src="https://s3-alpha-sig.figma.com/img/7680/b979/42ce0194fad0103bd91118827f9b094b?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S2utOL5oWIkouIti8V4osia8GpVtQu8mEO7uqRJTQh8jvsJLj11zhqyyIBN0Oa3sznHZB4WH6zdmoy6FzBi~IoEQMdFm-iM8K8soSF3DVjjRAkCz1lynt49pPiP4uL6Bg-Z10csaYjccXd7yvB-00aQOQb831JPMA-1-BRcAyrBQwHSEpSZuVTBNyTgLUGoAqMPqHzwHhxk5YOlXESGEUxf~f5TwuIyhTxSXoFPuuDXrMRmorC7BDKfARGoDS0ceztcQ-zDcEeau2Z7xWg3NUnjzwUm0t7mYgwsDqsm7CpX804HlYkhUC1O~i8xdrSSYSGwR8-d3ttDlaOmpr40xaw__" />
+                <img alt="..." src="/Image/DALL·E 2024-07-29 17.36.01 - A 3D cartoon illustration of a cute furry Central Asian Shepherd dog holding a mobile phone and looking at it. The dog has expressive eyes, a fluffy c 2.png" />
             </div>
             <div className="imgShadowDiv">
-                <img alt="..." src="https://s3-alpha-sig.figma.com/img/7680/b979/42ce0194fad0103bd91118827f9b094b?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S2utOL5oWIkouIti8V4osia8GpVtQu8mEO7uqRJTQh8jvsJLj11zhqyyIBN0Oa3sznHZB4WH6zdmoy6FzBi~IoEQMdFm-iM8K8soSF3DVjjRAkCz1lynt49pPiP4uL6Bg-Z10csaYjccXd7yvB-00aQOQb831JPMA-1-BRcAyrBQwHSEpSZuVTBNyTgLUGoAqMPqHzwHhxk5YOlXESGEUxf~f5TwuIyhTxSXoFPuuDXrMRmorC7BDKfARGoDS0ceztcQ-zDcEeau2Z7xWg3NUnjzwUm0t7mYgwsDqsm7CpX804HlYkhUC1O~i8xdrSSYSGwR8-d3ttDlaOmpr40xaw__" />
+                <img alt="..." src="/Image/DALL·E 2024-07-29 17.36.01 - A 3D cartoon illustration of a cute furry Central Asian Shepherd dog holding a mobile phone and looking at it. The dog has expressive eyes, a fluffy c 2.png" />
             </div>
             <div className="socialChat">
                 <div className="corner"></div>
                 <div className="twitter">
-                    <img alt="..." src="https://s3-alpha-sig.figma.com/img/5078/8745/c01cd4a8fca1e1c81c3b69c715a06f54?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hLKjXflwyWnrxoxwOjqLDWh4uZpUDKobhggR3KQ1J-deH5b6054bzGCvf1vbb-mM7qJreXBBUw8EhsdTTMFgzR-8Kf5vLN2cIsNV1IchWcW~BkSFSZbQmB8TNHBYwy7Ggb40sBaYdlSDbLKXGbmDG1hUNVNtsr0bHl4R3PSKCc-jcZY0GiY8tJwCZQG6-q8zCB2AGMapUOQ3zC36eRKvbesNbTCL7Y~QxuKdtiVr34FJMN2cDdy5icZTulJrHnhzELcOm1sfBfZJpfcPWUDssuqeraEEHHMrXCKHyH8Z5Ayn6jpKYIgINWsOKyd6vL4cpVQO3bWYD1nQXiClwvYI2Q__" />
+                    <img alt="..." src="/Image/twitter logo 1.png" />
                     <span>Twitter Link</span>
                 </div>
                 <div className="mask">

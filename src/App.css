@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: url('https://s3-alpha-sig.figma.com/img/6648/fff9/2dd3d3ca2ea2c2dede710d01d49c2ad1?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=frX1perr8lzVpKE3hjUCS-dcXyObiNPO8tcZCbClKqLDINm1Pz~igFj831~PLFMVfGBgysaBS5yJ2rPQg5OoNH73rx9ie0i34EqyvwTfW4kkqHbiDfrOOW70DyHWO3lN3GQfR5BaFw-UF0GiO6OKlh87DNPPUGElcqovXPzeaWEyvH0bPUtMYal-tzHVsMsGXETo9-EAO96PdJdcpFVHNE67BkjEbLMtreRyyxco4y2I3WrEq9oH16I7JAXU-778wQnCv1B~suxb~wu37rK0eF1jAhnLVLT0R71aN-LkCgmhTGxMx4NWStlUPD8pQvRXKcpdk8CQVd1JJ4rKIW5v5g__');
+  background: url('../public/Image/alagay-wallpeoar.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -173,6 +173,12 @@ body {
   overflow: hidden;
 }
 
+.gallery img{
+  width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    border-radius: 2rem;
+}
+
 .fSlide {
   position: relative;
 }
@@ -181,14 +187,14 @@ body {
   height: 22rem;
   width: 32rem;
   border-radius: 2rem;
-  background: gold;
+  background: #656460;
 }
 
 .div_2 {
   height: 22rem;
   width: 32rem;
   border-radius: 2rem;
-  background: gold;
+  background: #656460;
   margin-left: 37rem;
   position: absolute;
   top: 0;
@@ -198,7 +204,7 @@ body {
   height: 22rem;
   width: 32rem;
   border-radius: 2rem;
-  background: gold;
+  background: #656460;
   margin-left: 74rem;
   position: absolute;
   top: 0;
@@ -213,7 +219,7 @@ body {
   height: 22rem;
   width: 32rem;
   border-radius: 2rem;
-  background: gold;
+  background: #656460;
   margin-left: 111rem;
   position: absolute;
   top: 0;
@@ -223,7 +229,7 @@ body {
   height: 22rem;
   width: 32rem;
   border-radius: 2rem;
-  background: gold;
+  background: #656460;
   margin-left: 148rem;
   position: absolute;
   top: 0;
@@ -233,7 +239,7 @@ body {
   height: 22rem;
   width: 32rem;
   border-radius: 2rem;
-  background: gold;
+  background: #656460;
   margin-left: 185rem;
   position: absolute;
   top: 0;
@@ -689,7 +695,7 @@ body {
 }
 
 .merchandise .bg1 {
-  background: url('https://s3-alpha-sig.figma.com/img/7509/2c42/0295b873bfefd869e0278c7a23fda692?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X8TbJ4BDNgaBg4hy-OuXPW0RLjixq427h-RpfK7JLXe6zYyjy1uanOl5chg61Tpj2IVj6Wkt~gE6Bw-To4i0WARRUnvbnELe8aRKRHeZpBYkJcRSvEbGB2VWNW-Pg~jfhfwEzc~gQLLV58B-6p6A-A1EQtl6VZKSxIl9AWpWtx9h89Jjlvh65ZIBucwKGkbDjK7cc0-4DRrGw3n4CTT5wZFrItG9Bes1nhSXV~6CwXzvrZCqgG-wsdCTawyXrZmzIjYeSmo3txEKJvNclPn~LEvxUQm-FrQNXrgJGqjB8b5f1ldYouZ5KTb6GIEHW7oVEXfm5KKmReak8N6B0413NA__');
+  background: url('../public/Image/Alabay-Merch/black\ hoodie\ bck.png');
   background-size: cover;
   background-repeat: no-repeat;
   animation-name: fade;
@@ -707,7 +713,7 @@ body {
 }
 
 .merchandise .carousel-inner .bg2 {
-  background: url('https://s3-alpha-sig.figma.com/img/fc76/6d8d/8b344d796e5a7f49ab6712d0d329037f?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=STO5E3ivRqf3-N4h0n2uX2vFbwdsUxMtqH7lFi0zVE0pF3HLAH4RhEePPE0r0--vyscE~MTo1MfTrVw9seS41KoiyKjOp-BRmdyTnnEXP-KPXDHhDcKdBy~EkuqS~2SGUcvCdXKUnzCPpvH~5Qy57ibsk34v1t8G8r4qrG1t0KpjB92xMPp7vDFWIY627CadL4g~f5qMsl60w0SSN8h9WdXmRaeDO4k0vWLrjjpHR5UQuR7d2z4nw~pltfqKEVItSKkZRhbG2ZHawi5kdlI2HOVIV4A3vvmM3PYzrbDecHuMP5oz7kSUGmlenzkNqY~pP~bbHu~vTZwpnBhnG1ASZQ__');
+  background: url('../public/Image/Alabay-Merch/pink\ tee\ bck.png');
   background-size: cover;
   background-repeat: no-repeat;
   animation-name: fade;
@@ -725,7 +731,7 @@ body {
 }
 
 .merchandise .carousel-inner .bg3 {
-  background: url('https://s3-alpha-sig.figma.com/img/eafa/fb0c/20d274e8c38d04ea7420452643e06eb7?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=id2enPMUMa9XY5avmFhQaBQdhUixLMiiwMumW~KVgyqNpRJWqTnN8N-mbDtaRup0l5m3XJ~CO4ic8rkQ3ApGUmNxsnPeu-APPx5O6IDmVLExiw6TrXQTm5V2bW6AyUbPmTgJSLGt4nGf20X4FTKWDXHMwZNON5ldEsdMYiKpQ58qmrPYWwb4uZgbaxVdRCpb52UEqsebX7e0tRtVSmE6BBByb736Vs0a7poYB20DqmmT0GRnfE8pwkPmEfDluVjlfqwSiprT8UXInSZqyPxK73afUbGlVv~oSkxgIcKlqFFa7KAYsxo0BT04IMAhTxVOW1rDYyYu8XvIKiBuLIZ0dQ__');
+  background: url('../public/Image/Alabay-Merch/yellow\ tee\ bck.png');
   background-size: cover;
   background-repeat: no-repeat;
   animation-name: fade;
@@ -743,7 +749,7 @@ body {
 }
 
 .merchandise .carousel-inner .bg4 {
-  background: url('https://s3-alpha-sig.figma.com/img/edce/29c2/b86c0256af15ca0c6c5763472967414e?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n97rDZz99z~z0TsM9ew~HKxrFBQ-ElJAqZBXDwYAM6mt5YW~xigH-oCusCRoPZluIH8K3qYxWylfwWqpzQ3n~Wuj3OLE6QRqcc4OgqHTFUWsO1I8VOznfUCk5v6IT~lISOuRr8wbUltYQLtfzXbd1kW175XTfLXythQTh5G~dN36Vh7q0Q0VJRj3YQPMYNkTwNDYgzlmsvzNCXOlZJgYvBPlLI7yaPGv2r1JrZgbyKsUf3fm2ERhnG-S0iAwogINEauE3k5qNI6K3ZDM6vcP6~kxd99Jf6AA7qXPNY3MKiQEZsAfDBpKe2PxNCAzMh1E2qysd1pGrDZu4FRWMSmByA__');
+  background: url('../public/Image/Alabay-Merch/blue\ cap\ bck.png');
   background-size: cover;
   background-repeat: no-repeat;
   animation-name: fade;
@@ -1021,7 +1027,7 @@ body {
 }
 
 .gaurdian {
-  background: url('https://s3-alpha-sig.figma.com/img/17ad/b147/27a80e9f26b1592e8f58588da90159bc?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UFuKumYsUeZsSWFb~Jen5kYxXglroCLa57Ac1lebJwyA8V9wguPeoZsGx-UgQp-XTJk5YBjlt~j-9mOO~adK1EwjN4pIf9Oh4j-2KgpsNkpaUAiPtbMXH~LyY67FL9GSnJDCP31C4gPGrvDjUWC27cgmLncTevMQZrFKobjRzAWGhPsZHCT-yTUH~FhIby8dOONu9u3-dXngof7GrAmD0lfZRnzE6DA2UivoL9wBafQNf8oU7aL~TiYQo72y9jmyfjqhi8ANq0lX~zVh-awjSVfWdp9e9mr4IAXEbGNrvTelrzeIR9YVLqt4uKKOCVEOWCrRT34iIops7e7MpyPgEg__');
+  background: url('../public/Image/Alabay Games/Alabay\ Guard\ prev\ gradient.png');
   height: 76.2rem;
   background-position: center;
   /* background-size: 163rem 82rem; */

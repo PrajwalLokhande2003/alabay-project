@@ -66,9 +66,9 @@ const Discover = () => {
                     <div className="gamePreview">
                         <span>GAME</span> PREVIEW<br />
                         <div className="previews">
-                            <img alt="..." src="https://s3-alpha-sig.figma.com/img/085e/79d3/914a22e4e30df6b369a72c0ef6027214?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oyOWuSX996a5cLdjUiP4SgRNXclnOngWB27bZdiTmUyhN1EwmIQk9ULm9e87LGLlsgY5NmWMR3WJ6I6MfmMJ01ytT~EF6PRBkU2XWjD7QD0EGCOHuEY~Z~g1GwB4sAVBXdHI5M6IwOdL~-HDkZ8ol2NyU~0rYA4dnglhBI~rll7KHz9Ng-EVu6ryEBHZt-5v1U-B3U6XRVnLnXECXDEqhGeflzJ86hucQp0zm7Hth6Sv-tlDxDGsGXMxlIwxD1i-UpdAczWvlSQx03VcfxFBdNxbdc34IgsNLZ10OWy9-CW~t605zj42sY~masqWwVKHG~8RWWJ28RsSLKKVQLPHxg__" />
-                            <img alt="..." src="https://s3-alpha-sig.figma.com/img/03b5/046f/8d5174376aefb11ffb5c6f52219d94aa?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PJAwgBj5HxfDZ-rTghjvkLVVwDZ3T6vrVPpRTZfZZSJEhQfZ3Yxdjwoux0ZrfXO4R8LCkC~6zNOyzz-ApZsjUPMEeKUieD4NpfvEHMo~75IjcoQRQqEQbjLc~s5GNQoIdoLUoZLuBXEb6mP5-xkk2KX5Z9ic-dglHyRGQDHKYZE6GjqTgaV8-HudmhprMMqXa8iSrdwGmSA6rocHJ9bfVQ4EPjalcwk2az3jJYZcSZDDvsL~MZf9bzmSW9jX2dMWzRvVaCp4skkd80yTyz8HPwSqtxm0G7fCXmhkLgw-hsS0uekocnUPi~0UkAWvpD~TKgW7uA6NvnlwlqaVJjH7iQ__" />
-                            <img alt="..." src="https://s3-alpha-sig.figma.com/img/6394/0394/a9cc88bd7bb13d9606f8b43ca3f22818?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ea6TS0t1eSKUsbWuJ-DnkQQZV-LEBJH22Sc5xhebedTLfEyfpg2bWQe-etjzOxiht5nWE5ugu8ZtKrnZpB7u4HlzKQLqtij925O0iRbDYEe07iB~aD0GCV~Z5myWE0VpnQ-ddzBSNH0aqAfgTN0BE0Edy1yRi5YQdHUPw5t-O8Dgtjq8OK~hrltX1HRkBQ2-VRla0upI8SVkxUJqXIwBU6gSQwM5z-CgdcPk-r6m6dCBIZZinZQ63Px4AQE~BdX1d~ltp5UU4YnybFBgmY5UtvEvS0WBZVm9VmRvrHMNWnCkAKkfOpzIgigfpfyxPEC349hXwdMCRfOc8NI-JaHqpg__" />
+                            <img alt="..." src="/Image/Alabay Games/Alabay Guard/image 1 alabay guard.png" />
+                            <img alt="..." src="/Image/Alabay Games/Alabay Guard/image 2 alabay guard.png" />
+                            <img alt="..." src="/Image/Alabay Games/Alabay Guard/image 3 alabay guard.png" />
                         </div>
                     </div>
                     <div className="features">

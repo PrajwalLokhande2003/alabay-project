@@ -6,6 +6,7 @@ import Merchandise from './Merchandise'
 import Games from './Games'
 import SocialMedia from './SocialMedia'
 
+
 const Main = () => {
 
     const [visibility, setVisibility] = useState()
@@ -49,6 +50,7 @@ const Main = () => {
         console.log('clicked');
 
     }
+    
     return (
         <>
             <div className="main">
@@ -57,8 +59,8 @@ const Main = () => {
                         <span> ALABAY</span></div>
                     <p>The Central Asian Shepherd Dog, also known as Alabay, has been a     guardian of livestock and property for centuries. Originating from Central Asia, these dogs are renowned for their courage strength, and loyalty.</p>
                 </div>
-                <img alt='img' className="img" src='https://s3-alpha-sig.figma.com/img/0581/9154/369b463b9efe66ff3c4aa09e02e1bb96?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bLaAfyFvOKQOPYR4MJ-HmXTBaFOssESygmS16Mug~6sWnba2SFTKQkFEOgdh7-Onz1yc35l0oyGFQeaTcw5Uu94~RKOzYGwfGSxs7tK8EjxogLDMZ3J6qpQ-BRo3AjJut9zQIq8Bet05A7ApMliZYUvNDLxOdq31PRprZs1HZL7DYCxp3JOqwNnt9F41UqWl56DiWu-FGyG42uAqiGMaSs2yAUQDNbKJVE6-nqSMUbnfZDU2Op4~yyKHXsn9CGjb3eMc9URJdhPETmkFKbLE6AWenpoQ2l5iufLL6GZx7wQ16gK5l4wCl-8Yk9fyJmXt9Snhpi2SNkq~xXLwgvWTuA__' />
-                <div className="sImg"><img alt='img' src='https://s3-alpha-sig.figma.com/img/0581/9154/369b463b9efe66ff3c4aa09e02e1bb96?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bLaAfyFvOKQOPYR4MJ-HmXTBaFOssESygmS16Mug~6sWnba2SFTKQkFEOgdh7-Onz1yc35l0oyGFQeaTcw5Uu94~RKOzYGwfGSxs7tK8EjxogLDMZ3J6qpQ-BRo3AjJut9zQIq8Bet05A7ApMliZYUvNDLxOdq31PRprZs1HZL7DYCxp3JOqwNnt9F41UqWl56DiWu-FGyG42uAqiGMaSs2yAUQDNbKJVE6-nqSMUbnfZDU2Op4~yyKHXsn9CGjb3eMc9URJdhPETmkFKbLE6AWenpoQ2l5iufLL6GZx7wQ16gK5l4wCl-8Yk9fyJmXt9Snhpi2SNkq~xXLwgvWTuA__' /></div>
+                <img alt='img' className="img" src='/Image/DALL·E 2024-07-14 16.40.05 - A 3D cartoon illustration of a furry Central Asian Shepherd dog jumping happily in the air. The dog should have a joyful expression with a wide smile, 2.png' />
+                <div className="sImg"><img alt='img' src='/Image/DALL·E 2024-07-14 16.40.05 - A 3D cartoon illustration of a furry Central Asian Shepherd dog jumping happily in the air. The dog should have a joyful expression with a wide smile, 2.png' /></div>
 
                 <ul className="galleryMenu">
                     <li className="all" style={{ color: color }} onClick={colorCha}>All</li>
@@ -67,14 +69,14 @@ const Main = () => {
                 </ul>
                 <div className="gallery">
                     <div className="fSlide" style={{ left: left }}>
-                        <div className="div_1"><img alt='...' src=''/></div>
-                        <div className="div_2"><img alt='...' src=''/></div>
-                        <div className="div_3"><img alt='...' src=''/></div>
+                        <div className="div_1"><img alt='img1...' src='/Image/DALL·E 2024-07-15 01.28.43 - A full body 3D cute cartoon illustration of a very happy furry Central Asian Shepherd dog dressed as a construction worker. The dog should have a big_ 3.png '/></div>
+                        <div className="div_2"><img alt='img2...' src='/Image/Alabay Games/Alabay Adventure - The Lost Heritage/artifacts.png'/></div>
+                        <div className="div_3"><img alt='img3...' src='/Image/DALL·E 2024-07-15 01.31.03 - A full-body 3D cute cartoon illustration of a very happy furry Central Asian Shepherd dog dressed in a t-shirt with an Alabay dog printed on it and we 2.png'/></div>
                     </div>
                     <div className="sSlide" style={{ left: left }}>
-                        <div className="div_4"><img alt='...' src=''/></div>
-                        <div className="div_5"><img alt='...' src=''/></div>
-                        <div className="div_6"><img alt='...' src=''/></div>
+                        <div className="div_4"><img alt='img4...' src='/Image/Alabay Games/Alabay Adventure - The Lost Heritage/overview.png'/></div>
+                        <div className="div_5"><img alt='img5...' src='/Image/Alabay Games/Abilities 2.png'/></div>
+                        <div className="div_6"><img alt='img6...' src='/Image/Alabay Games/image 3 alabay guard 2.png'/></div>
                     </div>
                 </div>
                 <div className="arrowBtn"><button className="btn" onClick={imgChangeOne}>
